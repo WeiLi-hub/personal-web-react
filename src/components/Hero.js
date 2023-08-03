@@ -4,7 +4,7 @@ import Profile from '../image/profile.svg'
 
 const Hero = () => {
     return (
-        <section id="hero" className='flex px-2 sm:px-4'>
+        <section id="hero" className='flex px-2 sm:px-4 h-screen '>
 
             <div className="container mx-auto flex border-gray-200 border-b-2 px-2 py-12">
                 <div className="flex-1 flex-col justify-center">
@@ -20,7 +20,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="flex-1 hidden md:block">
-                    <img src={Profile} alt=""/>
+                    <img src={Profile} alt="" />
                 </div>
             </div>
         </section>

@@ -8,6 +8,7 @@ const Nav = () => {
                     <li className="navlink">
                         <a
                             href="#home"
+                            onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
                             className="block py-2 pr-4 pl-3 uppercase font-bold rounded md:p-0"
                         >
                             Home
