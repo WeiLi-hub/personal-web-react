@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/personal-web-react/static/css/main.faf24407.css",
-    "main.js": "/personal-web-react/static/js/main.d92bc55a.js",
+    "main.css": "/personal-web-react/static/css/main.762dcfa7.css",
+    "main.js": "/personal-web-react/static/js/main.fe5cb157.js",
     "static/js/787.676fbc64.chunk.js": "/personal-web-react/static/js/787.676fbc64.chunk.js",
     "static/media/profile.svg": "/personal-web-react/static/media/profile.bd5b5ef10c970865050426e4fbca7bf9.svg",
+    "static/media/umass_amherst.svg": "/personal-web-react/static/media/umass_amherst.c38336429366cd7da7431eb5dd208623.svg",
     "index.html": "/personal-web-react/index.html",
     "static/media/male.svg": "/personal-web-react/static/media/male.84ad462930048dd1db2113c4fea0f7ad.svg",
-    "main.faf24407.css.map": "/personal-web-react/static/css/main.faf24407.css.map",
-    "main.d92bc55a.js.map": "/personal-web-react/static/js/main.d92bc55a.js.map",
+    "main.762dcfa7.css.map": "/personal-web-react/static/css/main.762dcfa7.css.map",
+    "main.fe5cb157.js.map": "/personal-web-react/static/js/main.fe5cb157.js.map",
     "787.676fbc64.chunk.js.map": "/personal-web-react/static/js/787.676fbc64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.faf24407.css",
-    "static/js/main.d92bc55a.js"
+    "static/css/main.762dcfa7.css",
+    "static/js/main.fe5cb157.js"
   ]
 }
