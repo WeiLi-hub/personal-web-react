@@ -3,9 +3,9 @@ import ContactForm from "./ContactForm";
 
 const Contact = () => {
     return (
-        <section id="contact" className='flex flex-col h-screen sm:px-4 from-blue-800 justify-center bg-gradient-to-tr bg-pink-500 relative font-mono'>
+        <section id="contact" className='about_me flex flex-col h-screen sm:px-4 relative font-mono bg-cover bg-contact'>
             <ContactForm />
-        </section>
+        </section> 
     )
 }
 

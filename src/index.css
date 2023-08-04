@@ -12,11 +12,37 @@
 .navlink:after{
   display: block;
   content: "";
-  border-bottom: solid 3px rgb(28, 11, 4);
+  border-bottom: solid 3px rgb(227, 168, 142);
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
 }
 
 .navlink:hover:after {
   transform: scaleX(1);
+}
+
+.about_me{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.particles-wrapper {
+  background-color: #000000;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  position:fixed;
 }
