@@ -5,9 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'contact': "url('https://source.unsplash.com/buF62ewDLcQ')",
-      }
+     
     },
   },
   plugins: [],

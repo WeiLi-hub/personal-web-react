@@ -5,14 +5,14 @@ import ReactiveButton from 'reactive-button'
 
 export default function Footer() {
     return (
-        <div className='flex p-4 bg-black font-mono text-white justify-between'>
+        <div className='container mx-auto flex p-4 bg-black font-mono text-white justify-between'>
             <div className='pl-8 flex flex-1 items-center'>© 2023 | Built by Weiqiang Li</div>
 
             <div className='flex-1 flex items-center justify-center'>
                 <ReactiveButton color = "light" idleText ="TOP" outline shadow onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}/>
             </div>
 
-            <ul className='flex flex-1 gap-4 pr-8 justify-end'>
+            <ul className='flex flex-1 gap-5 pr-8 justify-end'>
                 <li>
                     <a href="https://www.instagram.com/weiqiang.li.777/" target="_blank" rel='noreferrer'>
                         <BsInstagram size={30} className={"transition ease-in-out delay-150 hover:-translate-y-2 duration-300"} />

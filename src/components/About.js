@@ -3,10 +3,9 @@ import Profile from './Profile';
 import Skill from './Skill';
 import umass from '../image/umass_amherst.svg'
 
-
 const About = () => {
     return (
-        <section id="about" className=' bg-gradient-to-b from-black bg-slate-700 flex py-20 sm:px-4  justify-center font-mono'>
+        <section id="about" className=' bg-gradient-to-b from-black bg-slate-600 flex py-20 sm:px-4  justify-center font-mono'>
             <div className='rounded-xl container mx-16 flex flex-col bg-slate-200 justify-center w-2/3 h-1/2'>
                 <div className='rounded-t-xl text-center bg-violet-500 p-1.5'>
                     <text className='font-semibold text-white bg-black text-2xl px-4'>{"<>"}About Me{"</>"}</text>
