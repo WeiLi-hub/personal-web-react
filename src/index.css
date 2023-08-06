@@ -9,6 +9,16 @@
   }
 }
 
+::-webkit-scrollbar{
+  height: 5px;
+  width: 5px;
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: darkgray;
+}
+
 .navlink:after {
   display: block;
   content: "";
@@ -53,15 +63,92 @@
   position: absolute;
 }
 
-.floating { 
-  animation-name: float;
+.floating {
+  animation-name: float-animation;
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 
-@keyframes float {
-  0% { transform: translate(0,  0px); }
-  50%  { transform: translate(0, 30px); }
-  100%   { transform: translate(0, -0px); }   
+@keyframes float-animation {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 30px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0.0deg)
+  }
+
+  10% {
+    transform: rotate(14.0deg)
+  }
+
+  20% {
+    transform: rotate(-8.0deg)
+  }
+
+  30% {
+    transform: rotate(14.0deg)
+  }
+
+  40% {
+    transform: rotate(-4.0deg)
+  }
+
+  50% {
+    transform: rotate(10.0deg)
+  }
+
+  60% {
+    transform: rotate(0.0deg)
+  }
+
+  100% {
+    transform: rotate(0.0deg)
+  }
+}
+
+.arrow-down{
+  animation: movebtn 3s ease-in-out infinite;
+}
+
+@keyframes movebtn {
+  0%{
+    transform: translateY(0px);
+    opacity: 0.4;
+  }
+  25%{
+    transform: translateY(20px);
+    opacity: 1;
+  }
+  50%{
+    transform: translateY(40px);
+    opacity: 0.7;
+  }
+  75%{
+    transform: translateY(60px);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 0.4;
+  }
 }
