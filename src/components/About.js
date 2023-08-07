@@ -17,7 +17,7 @@ const About = () => {
                             <div className='pb-4 drop-shadow-xl'>
                                 <text className='font-semibold bg-black text-white p-1'>Introduction</text>
                             </div>
-                            <p className='text-justify text-lg'>Hi there! I'm Weiqiang Li, a computer science fresh graduate.
+                            <p className='text-justify text-xl'>Hi! I'm Weiqiang Li, a computer science recent graduate.
                                 Curious to explore the web and work as Full-stack developer. I am a quick learner and hope to
                                 achieve my goals through sheer hard work. I'm curious by nature and have a thirst for knowledge
                                 and like to learn more and more at any point in time.

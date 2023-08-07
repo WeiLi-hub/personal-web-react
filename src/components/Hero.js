@@ -1,6 +1,7 @@
 import React from 'react'
 import Typed from 'react-typed'
 import {BsArrowDownCircle} from 'react-icons/bs'
+
 const Hero = () => {
     return (
         <section id="hero" className='flex px-2 sm:px-4 h-screen'>
