@@ -5,32 +5,38 @@ import umass from '../image/umass_amherst.svg'
 
 const About = () => {
     return (
-        <section id="about" className=' bg-gradient-to-b from-black bg-slate-600 flex py-20 sm:px-4  justify-center font-mono'>
-            <div className='rounded-xl container mx-16 flex flex-col bg-slate-200 justify-center w-2/3 h-1/2'>
+        <section id="about" className=' bg-gradient-to-b from-black bg-slate-600 flex py-20 sm:px-4  justify-center font-serif'>
+            <div className='rounded-xl container mx-16 flex flex-col bg-slate-200 justify-center w-[75%] h-1/2'>
                 <div className='rounded-t-xl text-center bg-violet-500 p-1.5'>
-                    <text className='font-semibold text-white bg-black text-2xl px-4'>{"<>"}About Me{"</>"}</text>
+                    <text className='shadow-md shadow-gray-600 font-semibold text-white bg-black text-2xl px-4'>{"<>"}About Me{"</>"}</text>
                 </div>
 
                 <div className='p-4 flex flex-1 mb-6 bg-gradient-to-b from-violet-500 '>
                     <div className="flex flex-col pr-6 ">
                         <div className='pb-6 flex flex-col flex-1'>
-                            <div className='pb-4 drop-shadow-xl'>
-                                <text className='font-semibold bg-black text-white p-1'>Introduction</text>
+                            <div className='pb-4'>
+                                <text className='shadow-lg shadow-gray-600 font-semibold bg-black text-white p-1'>Introduction</text>
                             </div>
-                            <p className='text-justify text-xl'>Hi! I'm Weiqiang Li, a computer science recent graduate.
-                                Curious to explore the web and work as Full-stack developer. I am a quick learner and hope to
-                                achieve my goals through sheer hard work. I'm curious by nature and have a thirst for knowledge
-                                and like to learn more and more at any point in time.
-                                I also keep upgrading my skill-set, which I leverage to take myself to newer heights.</p>
+                            <p className='text-justify text-lg pb-3'>Hi! I'm Wei, a Computer Science recent graduate from Umass Amherst.
+                                Throughout my academic journey, I've developed a solid foundation in computation system and technologies, that includes
+                                the knowledge of operating system, data structure, networking, and data management, etc. Addtionally, the unwavering curiosity fuels
+                                my enthusiasm in the exploration of web-developemnt, serveral hands-on and team working experiences equipped me with a deep understanding of 
+                                front-end an back-end technologies, as well as the art of crafting user-friendly and visually captivating websites.   
+                            </p>
+                            <p className='text-justify text-lg pb-3'>
+                                I'm excited to leverage my prior web development experience and my fresh perspective as a recent graduate to 
+                                contribute effectively to forward-thinking projects. Whether it's refining the user experience, optimizing functionality, 
+                                or tackling new coding paradigms, I'm eager to embrace every opportunity to learn and grow.
+                            </p>
                         </div>
 
 
-                        <div className='drop-shadow-xl flex  flex-col shrink'>
-                            <div className='drop-shadow-xl pb-4'>
-                                <text className='font-semibold bg-black text-white p-1'>Education</text>
+                        <div className=' drop-shadow-2xl flex flex-col shrink'>
+                            <div className='pb-4'>
+                                <text className='shadow-lg shadow-gray-600 font-semibold bg-black text-white p-1'>Education</text>
                             </div>
                             <img src={umass} className='drop-shadow-xl w-[35%] pb-2' alt=''></img>
-                            <p className='text-xl'><em>B.S. in Computer Science</em> • Feb. 2021 - May. 2023</p>
+                            <p className='text-xl'><em>B.S. in Computer Science</em> • Jan. 2021 - May. 2023</p>
                         </div>
 
                     </div>

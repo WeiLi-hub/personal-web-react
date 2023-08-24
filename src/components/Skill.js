@@ -16,7 +16,7 @@ const Skill = () => {
 
     return (
         <div className='flex flex-col px-4'>
-            <div className='pb-4 drop-shadow-xl'><text className='font-semibold  bg-black text-white p-1'>Programming Language</text></div>
+            <div className='pb-4'><text className='shadow-lg shadow-gray-600 font-semibold  bg-black text-white p-1'>Programming Language</text></div>
             <div className="flex space-x-10 pb-5 min-w-0">
                 {pl.map(({ label, Icon }) => {
                     return (
@@ -28,7 +28,7 @@ const Skill = () => {
                 })}
             </div>
 
-            <div className='pb-4 drop-shadow-xl'><text className='font-semibold bg-black text-white p-1'>Framework & Library</text></div>
+            <div className='pb-4'><text className='shadow-lg shadow-gray-600 font-semibold bg-black text-white p-1'>Framework & Library</text></div>
             <div className="flex space-x-10 pb-5 min-h-0">
                 {fl.map(({ label, Icon }) => {
                     return (
@@ -40,7 +40,7 @@ const Skill = () => {
                 })}
             </div>
 
-            <div className='pb-4 drop-shadow-xl'><text className='font-semibold bg-black text-white p-1'>Tool & Database</text></div>
+            <div className='pb-4'><text className='shadow-lg shadow-gray-600 font-semibold bg-black text-white p-1'>Tool & Database</text></div>
             <div className="flex space-x-10 pb-5">
                 {tb.map(({ label, Icon }) => {
                     return (
