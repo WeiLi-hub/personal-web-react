@@ -2,6 +2,7 @@ import React from 'react'
 import Profile from './Profile';
 import Skill from './Skill';
 import umass from '../image/umass_amherst.svg'
+import { motion } from "framer-motion"
 
 const About = () => {
     return (
@@ -17,17 +18,29 @@ const About = () => {
                             <div className='pb-4'>
                                 <text className='shadow-lg shadow-gray-600 font-semibold bg-black text-white p-1'>Introduction</text>
                             </div>
-                            <p className='text-justify text-lg pb-3'>Hi! I'm Wei, a Computer Science recent graduate from Umass Amherst.
-                                Throughout my academic journey, I've developed a solid foundation in computation system and technologies, that includes
-                                the knowledge of operating system, data structure, networking, and data management, etc. Addtionally, the unwavering curiosity fuels
-                                my enthusiasm in the exploration of web-developemnt, serveral hands-on and team working experiences equipped me with a deep understanding of 
-                                front-end an back-end technologies, as well as the art of crafting user-friendly and visually captivating websites.   
-                            </p>
+
+                            <motion.div
+                                variants={{
+                                    hidden: { opacity: 0, y: 75 },
+                                    visible: { opacity: 1, y: 0 },
+                                }}
+                                initial="hidden"
+                                animate="visible"
+                                transition={{ duration: 0.5, delay: 0.25 }}
+                            >
+                                <p className='text-justify text-lg pb-3'>Hi! I'm Wei, a Computer Science recent graduate from Umass Amherst.
+                                    Throughout my academic journey, I've developed a solid foundation in computation system and technologies, that includes
+                                    the knowledge of operating system, data structure, networking, and data management, etc. Addtionally, the unwavering curiosity fuels
+                                    my enthusiasm in the exploration of web-developemnt, serveral hands-on and team working experiences equipped me with a deep understanding of
+                                    front-end an back-end technologies, as well as the art of crafting user-friendly and visually captivating websites.
+                                </p>
+                            </motion.div>
                             <p className='text-justify text-lg pb-3'>
-                                I'm excited to leverage my prior web development experience and my fresh perspective as a recent graduate to 
-                                contribute effectively to forward-thinking projects. Whether it's refining the user experience, optimizing functionality, 
+                                I'm excited to leverage my prior web development experience and my fresh perspective as a recent graduate to
+                                contribute effectively to forward-thinking projects. Whether it's refining the user experience, optimizing functionality,
                                 or tackling new coding paradigms, I'm eager to embrace every opportunity to learn and grow.
                             </p>
+
                         </div>
 
 

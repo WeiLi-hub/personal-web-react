@@ -1,15 +1,14 @@
 import React from 'react';
-import Website from '../image/project_personalwebsite.png'
 
-const Project_left = () => {
+const Project_left = (props) => {
     return (
-        <div className='flex flex-1 w-[70%] bg-white rounded-lg border-4 border-red-400 my-8'>
-            <div>
-                <img src={Website} alt="website" className='w-[500px] h-[400px] m-8' />
+        <div className='flex flex-1 w-[60%] my-8 text-white backdrop-blur-sm bg-gray-300/30'>
+            <div className=''>
+                <img src={props.image} alt="website" className=' max-w-[50%] h-auto m-8' />
             </div>
-            <div className='flex flex-col grow m-8 items-center'>
-                <h2>Personal_website</h2>
-                <p>Description</p>
+            <div className='flexflex-col grow my-8 items-center'>
+                <h2>{props.name}</h2>
+                <p>{props.description}</p>
 
             </div>
         </div>
