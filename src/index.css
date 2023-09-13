@@ -19,16 +19,10 @@
   background: darkgray;
 }
 
-.navlink:after {
-  display: block;
-  content: "";
-  border-bottom: solid 3px rgb(227, 168, 142);
-  transform: scaleX(0);
-  transition: transform 250ms ease-in-out;
-}
-
-.navlink:hover:after {
-  transform: scaleX(1);
+.navlink:hover{
+  background-color: azure;
+  color: black;
+  transition: 0.5 ease-in-out;
 }
 
 .contact {
@@ -152,3 +146,40 @@
     opacity: 0.4;
   }
 }
+
+.scrolling, .unScroll{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.scrolling ul{
+  border-radius: 9999px;
+  background-color: rgb(106, 105, 107);
+  opacity: 0.6;
+  padding-left: 24px;
+  padding-right: 24px;
+  transition: all 0.5s;
+}
+
+.scrolling .navlink{
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: all 0.5s;
+}
+
+.unScroll .navlink{
+  padding-left: 32px;
+  padding-right: 32px;
+  transition: all 0.5s;
+}
+.unScroll ul{
+  border-radius: 0%;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+
+.unScroll{
+  background-color: rgb(0, 0, 0, 0.5);
+}
+

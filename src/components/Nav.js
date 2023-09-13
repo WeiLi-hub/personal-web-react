@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
-
+import { AiOutlineHome, AiOutlineUser, AiOutlineTool, AiOutlinePhone } from 'react-icons/ai'
 const Nav = () => {
     const [scrolling, setScrolling] = useState(false);
     const listenScrollEvent = () => {
-        if (window.scrollY >= 90) {
+        if (window.scrollY >= 500) {
             setScrolling(true);
             console.log("scrolling");
         }
@@ -21,45 +21,51 @@ const Nav = () => {
 
 
     return (
-        <nav className="navbar px-2 sm:px-4 py-2 items-center sticky top-0 bg-black/[0.7] z-10 text-gray-200 transition-[0.4]">
-            <div className="container flex flex-wrap justify-center mx-auto">
-                <ul className="flex flex-col rounded-full bg-white border transition-[0.3] px-8 py-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-base md:font-bold md:border-0"> 
-                    <li className="navlink">
-                        <a
-                            href="#home"
-                            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                            className="block py-2 pr-4 pl-3 uppercase font-bold rounded md:p-0"
-                        >
-                            Home
-                        </a>
-                    </li>
-                    <li className="navlink">
-                        <a
-                            href="#about"
-                            className="block py-2 pr-4 pl-3 uppercase font-bold rounded md:p-0"
-                        >
-                            About
-                        </a>
-                    </li>
-                    <li className="navlink">
-                        <a
-                            href="#project"
-                            className="block py-2 pr-4 pl-3 uppercase font-bold rounded md:p-0"
-                        >
-                            Projects
-                        </a>
-                    </li>
-                    <li className="navlink">
-                        <a
-                            href="#contact"
-                            className="block py-2 pr-4 pl-3 uppercase font-bold rounded md:p-0"
-                        >
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <div className={scrolling? "scrolling": "unScroll"}>
+            <nav className="navbar px-2 sm:px-4 py-4 items-center text-gray-200 transition-[0.4]">
+                <div className="container flex justify-center flex-wrap mx-auto">
+                    <ul className="flex rounded-full hover:opacity-100 px-16">
+                        <li className="navlink flex items-center py-4">
+                            <AiOutlineHome size={20}/>
+                            <a
+                                href="#home"
+                                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                                className="block py-2 pr-4 pl-3 uppercase font-bold rounded md:p-0"
+                            >
+                                Home
+                            </a>
+                        </li>
+                        <li className="navlink flex items-center py-4">
+                            <AiOutlineUser size={20}/>
+                            <a
+                                href="#about"
+                                className="block py-2 pr-4 pl-3 uppercase font-bold rounded md:p-0"
+                            >
+                                About
+                            </a>
+                        </li>
+                        <li className="navlink flex items-center py-4">
+                            <AiOutlineTool size={20}/>
+                            <a
+                                href="#project"
+                                className="block py-2 pr-4 pl-3 uppercase font-bold rounded md:p-0"
+                            >
+                                Projects
+                            </a>
+                        </li>
+                        <li className="navlink flex items-center py-4">
+                            <AiOutlinePhone size={20}/>
+                            <a
+                                href="#contact"
+                                className="block py-2 pr-4 pl-3 uppercase font-bold rounded md:p-0"
+                            >
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     )
 }
 
