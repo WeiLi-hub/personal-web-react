@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <section id="hero" className='flex px-2 sm:px-4 h-screen'>
             <div className="container mx-auto flex-col flex px-2 pb-12 pt-8 items-center relative space-y-8">
-                <h1 className='capitalize text-[96px] text-cyan-600'>welcome!</h1>
+                <h1 className='capitalize text-[96px] text-cyan-600 text-stroke-3'>welcome!</h1>
           
                 <h2 className="text-5xl pb-6 text-white">
                     <span className="wave text-[50px] pr-2">👋</span>

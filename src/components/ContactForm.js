@@ -43,7 +43,7 @@ const ContactForm = () => {
     return (
         <form ref={form} id={'contact-form'} onSubmit={sendEmail}>
             <ToastContainer />
-            <div className="floating h-3/4 w-1/2 backdrop-blur-lg backdrop-brightness-110 top-[12.5%] left-1/4 absolute flex flex-col py-8 justify-between shadow-2xl">
+            <div className="h-3/4 w-1/2 backdrop-blur-lg backdrop-brightness-110 top-[12.5%] left-1/4 absolute flex flex-col py-8 justify-between shadow-2xl">
                 <h1 className='mt-8 text-center text-slate-200 font-extrabold text-4xl'>Contact Me</h1>
                 <div className="flex mr-[13%] after:content-['*'] after:ml-1 after:text-red-500 items-center">
                     <label className='w-[30%] text-end pr-2 font-bold text-xl'>Name: </label>
