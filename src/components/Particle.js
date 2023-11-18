@@ -58,7 +58,7 @@ const App = () => {
                     zIndex: {
                         value: {
                             min: 0,
-                            max: 100,
+                            max: 200,
                         },
                         opacityRate: 10,
                         sizeRate: 10,

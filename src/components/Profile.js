@@ -6,8 +6,8 @@ import { AiOutlineMail } from 'react-icons/ai'
 const Profile = () => {
     return (
         <article className='outline-2 drop-shadow-md flex place-content-stretch'>
-            <div className='flex-col flex-none'>
-                <div className="px-8 pt-8 ">
+            <div className='px-4 flex-col flex-none'>
+                <div className="p-2">
                     <div className="drop-shadow-xl transition ease-in-out delay-150 hover:scale-125 duration-500 cursor: cursor-zoom-in">
                         <img className="rounded-full border-black border-1 bg-white" src={my_photo} alt='' />
                     </div>

@@ -1,10 +1,11 @@
 import React from 'react'
 import Typed from 'react-typed'
 import {BsArrowDownCircle} from 'react-icons/bs'
-
+import Particle from './Particle'
 const Hero = () => {
     return (
         <section id="hero" className='flex px-2 sm:px-4 h-screen'>
+            <Particle />
             <div className="container mx-auto flex-col flex px-2 pb-12 pt-8 items-center relative space-y-8">
                 <h1 className='capitalize text-[96px] text-cyan-600 text-stroke-3'>welcome!</h1>
           

@@ -28,7 +28,7 @@ const About = () => {
                                 animate="visible"
                                 transition={{ duration: 0.5, delay: 0.25 }}
                             >
-                                <p className='text-justify text-lg pb-3'>Hi! I'm Wei, a Computer Science recent graduate from Umass Amherst.
+                                <p className='text-justify text-lg pb-3'>Hi! I'm a Computer Science recent graduate from Umass Amherst.
                                     Throughout my academic journey, I've developed a solid foundation in computation system and technologies, that includes
                                     the knowledge of operating system, data structure, networking, and data management, etc. Addtionally, the unwavering curiosity fuels
                                     my enthusiasm in the exploration of web-developemnt, serveral hands-on and team working experiences equipped me with a deep understanding of
