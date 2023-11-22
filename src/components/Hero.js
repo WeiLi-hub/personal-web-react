@@ -12,7 +12,7 @@ const Hero = () => {
                 <h2 className="text-5xl pb-6 text-white">
                     <span className="wave text-[50px] pr-2">👋</span>
                     Hi, I'm 
-                    <text className=' bg-gray-400 text-black ml-2 my-4 px-2'>Weiqiang Li</text>
+                    <text className='contact text-black ml-2 px-4 py-2'>Weiqiang Li</text>
                 </h2>
                 <div className=''>
                     <Typed

@@ -20,9 +20,9 @@
 }
 
 .navlink:hover{
-  background-color: azure;
+  background-color: rgb(199, 241, 241);
   color: black;
-  transition: 0.5 ease-in-out;
+  transition: 0.3 ease-in-out;
 }
 
 .contact {
@@ -154,7 +154,7 @@
 }
 
 .scrolling ul{
-  border-radius: 9999px;
+  border-radius: 24px;
   background-color: rgb(106, 105, 107);
   opacity: 0.6;
   padding-left: 24px;
