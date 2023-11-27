@@ -45,13 +45,13 @@ const ContactForm = () => {
             <div className="h-3/4 w-1/2 backdrop-blur-lg backdrop-brightness-110 top-[12.5%] left-1/4 absolute flex flex-col py-8 justify-between shadow-2xl">
                 <h1 className='mt-8 ml-[15%] text-gray-700 font-extrabold text-4xl'>Contact Me</h1>
                 <div className="flex mx-[15%] after:content-['*'] after:ml-1 after:text-red-500 items-center">
-                    <input className="mt-1 px-3 py-2 bg-gray-400 border-1 shadow-sm border-black placeholder-white focus:outline-none focus:border-black focus:ring-black focus:ring-2 w-full" autoComplete="off" type="text" name="user_name" placeholder="Your name" required />
+                    <input className="mt-1 px-3 py-2 bg-gray-200 border-1 shadow-sm border-black placeholder-slate-400 focus:outline-none focus:border-black focus:ring-black focus:ring-2 w-full" autoComplete="off" type="text" name="user_name" placeholder="Your name" required />
                 </div>
                 <div className="flex mx-[15%] after:content-['*'] after:ml-1 after:text-red-500 items-center">
-                    <input className='mt-1 px-3 py-2  bg-gray-400 border-1 shadow-sm border-black placeholder-white focus:outline-none focus:border-black focus:ring-black focus:ring-2 w-full' autoComplete="off" type="email" name="user_email" placeholder="You@example.com" required />
+                    <input className='mt-1 px-3 py-2  bg-gray-200 border-1 shadow-sm border-black placeholder-slate-400 focus:outline-none focus:border-black focus:ring-black focus:ring-2 w-full' autoComplete="off" type="email" name="user_email" placeholder="You@example.com" required />
                 </div>
                 <div className="flex mx-[15%] after:content-['*'] after:ml-1 after:text-red-500 items-center">
-                    <textarea className='mt-1 px-3 py-2  bg-gray-400 border-1 shadow-sm border-black placeholder-white focus:outline-none focus:border-black focus:ring-black focus:ring-2 w-full' style={{ resize: "none" }} name="message" placeholder="Leave me a message....." required />
+                    <textarea className='mt-1 px-3 py-2  bg-gray-200 border-1 shadow-sm border-black placeholder-slate-400 focus:outline-none focus:border-black focus:ring-black focus:ring-2 w-full' style={{ resize: "none" }} name="message" placeholder="Leave me a message....." required />
                 </div>
                 <div className='flex flex-row-reverse mr-[17%]'>
                     <button className ="submit-botton py-3 px-8 border-2 border-black font-bold text-xl" type = {'submit'} >Submit</button>

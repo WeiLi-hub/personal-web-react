@@ -9,7 +9,7 @@ const Profile = () => {
             <div className='px-4 flex-col flex-none'>
                 <div className="p-2">
                     <div className="drop-shadow-xl cursor: cursor-zoom-in">
-                        <img className="rounded-full border-black border-1 hover:top-8 transition ease-in-out delay-150 hover:scale-110 duration-500 bg-blue-300/50 w-[250px] h-auto" src={my_photo} alt='' />
+                        <img className="rounded-full border-black border-1 hover:top-8 transition ease-in-out delay- hover:bg-blue-400 hover:scale-110 duration-500 bg-blue-300/50 w-[250px] h-auto" src={my_photo} alt='' />
                     </div> 
                 </div>
 
