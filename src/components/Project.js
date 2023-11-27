@@ -1,11 +1,10 @@
 import React from 'react'
 import ProjectLeft from './Project_left';
-import ProjectRight from './Project_right';
 import Website from '../image/project_personalwebsite.png'
 
 const Project = () => {
     return (
-        <section id="project" className="py-20 relative flex flex-col font-sans">
+        <section id="project" className="py-20 relative flex flex-col font-sans items-center">
             <div className='flex pb-8 justify-center'>
                 <h1 className='header text-white text-center font-bold font-serif text-[54px]'>
                     Projects

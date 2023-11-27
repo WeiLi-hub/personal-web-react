@@ -2,7 +2,6 @@ import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import ReactiveButton from 'reactive-button';
 
 const ContactForm = () => {
     const form = useRef();
@@ -55,7 +54,7 @@ const ContactForm = () => {
                     <textarea className='mt-1 px-3 py-2  bg-gray-400 border-1 shadow-sm border-black placeholder-white focus:outline-none focus:border-black focus:ring-black focus:ring-2 w-full' style={{ resize: "none" }} name="message" placeholder="Leave me a message....." required />
                 </div>
                 <div className='flex flex-row-reverse mr-[17%]'>
-                    <ReactiveButton color="primary" size="large" shadow idleText="Submit" type = {'submit'}/>
+                    <button className ="submit-botton py-3 px-8 border-2 border-black font-bold text-xl" type = {'submit'} >Submit</button>
                 </div>
             </div>
         </form>

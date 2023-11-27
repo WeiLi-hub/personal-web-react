@@ -17,7 +17,7 @@ const Skills = () => {
     { label: "Vscode", Icon: SiVisualstudiocode }, { label: "Redis", Icon: SiRedis }, { label: "Docker", Icon: SiDocker }]
 
     return (
-        <section className='z-[1] relative p-[25px] my-[25px] flex flex-col items-center w-screen'>
+        <section id ="skills" className='z-[1] relative p-[25px] my-[25px] flex flex-col items-center w-screen'>
 
             <h1 className='header text-white text-center font-bold text-[54px]'>
                 Skills

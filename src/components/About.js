@@ -5,8 +5,8 @@ import { motion } from "framer-motion"
 
 const About = () => {
     return (
-        <section id="about" className=' bg-gradient-to-b from-black bg-slate-600 flex py-20 sm:px-4  justify-center font-serif'>
-            <div className='rounded-xl bg-about bg-no-repeat bg-cover bg-center container mx-16 fl ex flex-col bg-slate-200 justify-center w-[85%] h-1/2'>
+        <section className=' bg-gradient-to-b from-black bg-slate-600 flex py-20 sm:px-4  justify-center font-serif'>
+            <div id = "about"  className='rounded-xl bg-about bg-no-repeat bg-cover bg-center container mx-16 fl ex flex-col bg-slate-200 justify-center w-[85%] h-1/2'>
                 <div className='justify-center pb-1.5 flex'>
                     <div className='font-semibold rounded-b-xl text-white bg-black text-2xl py-1.5 px-4'>{"<>"}About Me{"</>"}</div>
                 </div>
@@ -46,7 +46,9 @@ const About = () => {
                                 <p className='text-xl'><em>B.S. in Computer Science</em> • Jan. 2021 - May. 2023</p>
                             </div>
                         </div>
-
+                        <a href="#skills">
+                            <button className="submit-botton py-3 px-8 border-2 border-black font-bold text-xl">Check My Skills</button>
+                        </a>
 
                     </div>
                     <Profile />
@@ -54,7 +56,6 @@ const About = () => {
                 </div>
 
 
-                {/* <Skill /> */}
             </div>
 
 
