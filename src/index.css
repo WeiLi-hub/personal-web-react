@@ -186,3 +186,34 @@
 .text-stroke-3{
   -webkit-text-stroke: 2px rgb(11, 139, 13);
 }
+
+.header{
+  position: relative;
+  max-width: 550px;
+  min-width: 550px;
+}
+.header:before {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 5px;
+  background: linear-gradient(to left, rgb(234, 218, 218), #aa748f, #231717, #1b0b0b);
+
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+.header:after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 5px;
+  background: linear-gradient(to right, rgb(234, 218, 218), #aa748f, #231717, #1b0b0b);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import my_photo from '../image/male.svg'
+import my_photo from '../image/memoji_3.png'
 import { BsInstagram, BsLinkedin, BsGithub } from 'react-icons/bs'
 import { AiOutlineMail } from 'react-icons/ai'
 
@@ -8,9 +8,9 @@ const Profile = () => {
         <article className='outline-2 drop-shadow-md flex place-content-stretch'>
             <div className='px-4 flex-col flex-none'>
                 <div className="p-2">
-                    <div className="drop-shadow-xl transition ease-in-out delay-150 hover:scale-125 duration-500 cursor: cursor-zoom-in">
-                        <img className="rounded-full border-black border-1 bg-white" src={my_photo} alt='' />
-                    </div>
+                    <div className="drop-shadow-xl cursor: cursor-zoom-in">
+                        <img className="rounded-full border-black border-1 hover:top-8 transition ease-in-out delay-150 hover:scale-110 duration-500 bg-blue-300/50 w-[250px] h-auto" src={my_photo} alt='' />
+                    </div> 
                 </div>
 
                 <div className="p-5 flex flex-col">

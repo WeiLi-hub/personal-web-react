@@ -6,12 +6,12 @@ import { motion } from "framer-motion"
 const About = () => {
     return (
         <section id="about" className=' bg-gradient-to-b from-black bg-slate-600 flex py-20 sm:px-4  justify-center font-serif'>
-            <div className='rounded-xl container mx-16 flex flex-col bg-slate-200 justify-center w-[85%] h-1/2'>
-                <div className='rounded-t-xl justify-center bg-violet-500 pb-1.5 flex'>
+            <div className='rounded-xl bg-about bg-no-repeat bg-cover bg-center container mx-16 fl ex flex-col bg-slate-200 justify-center w-[85%] h-1/2'>
+                <div className='justify-center pb-1.5 flex'>
                     <div className='font-semibold rounded-b-xl text-white bg-black text-2xl py-1.5 px-4'>{"<>"}About Me{"</>"}</div>
                 </div>
 
-                <div className='pl-6 pr-10 flex bg-gradient-to-b from-violet-500 '>
+                <div className='pl-6 pr-10 flex pb-10 text-black'>
                     <div className="flex-1 flex-col pr-6 ">
                         <div className='pb-6 flex flex-col flex-1'>
                             <div className='pb-4'>

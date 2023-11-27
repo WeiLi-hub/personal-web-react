@@ -7,14 +7,11 @@ const Project = () => {
     return (
         <section id="project" className="py-20 relative flex flex-col font-sans">
             <div className='flex pb-8 justify-center'>
-                <h1 className='text-white font-extrabold font-serif text-[54px]'>
+                <h1 className='header text-white text-center font-bold font-serif text-[54px]'>
                     Projects
                 </h1>
             </div>
             <ProjectLeft image={Website} name="Personal Porfolio" description="This is description" href="https://github.com/WeiLi-hub" />
-            <ProjectRight image={Website} name="Personal Porfolio" description="This is description" href="https://github.com/WeiLi-hub" />
-            <ProjectLeft image={Website} name="Personal Porfolio" description="This is description" href="https://github.com/WeiLi-hub" />
-            <ProjectRight image={Website} name="Personal Porfolio" description="This is description" href="https://github.com/WeiLi-hub" />
 
         </section>
     )

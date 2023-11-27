@@ -17,20 +17,20 @@ const Skills = () => {
     { label: "Vscode", Icon: SiVisualstudiocode }, { label: "Redis", Icon: SiRedis }, { label: "Docker", Icon: SiDocker }]
 
     return (
-        <section className='z-[1] relative p-[30px] my-[50px] flex flex-col items-center w-screen'>
+        <section className='z-[1] relative p-[25px] my-[25px] flex flex-col items-center w-screen'>
 
-            <h1 className='text-white font-bold text-[54px]'>
+            <h1 className='header text-white text-center font-bold text-[54px]'>
                 Skills
             </h1>
 
-            <div className='skill flex flex-wrap justify-evenly w-full mt-[50px]'>
+            <div className='skill flex flex-wrap justify-evenly w-full mt-[50px] my-8'>
                 <div className='flex flex-col flex-1 items-center mx-8'>
-                    <div className='pb-4'><text className='shadow-lg shadow-gray-600 font-semibold  bg-black text-white p-1'>Programming Language</text></div>
-                    <div className="flex flex-1 flex-col pb-5 min-w-0 w-full  bg-gray-300/50">
-                        {pl.map(({ label, Icon }) => {
+                    <div className='mb-6'><text className='border-b-2 border-white font-semibold bg-black text-lg text-white pb-2'>Programming Language</text></div>
+                    <div className="flex flex-1 flex-wrap px-5 py-8 w-full rounded-lg items-center bg-gray-200/90">
+                        {pl.map(({ label, Icon }) => { 
                             return (
-                                <div key={pl.label} className="flex min-w-0 flex-col items-center transition ease-in-out hover:bg-gray-400 hover:scale-125 duration-200 cursor-pointer">
-                                    <Icon size={iconSize} />
+                                <div key={pl.label} className="flex p-4 box-border w-1/2 flex-col items-center">
+                                    <Icon size={iconSize} className='transition ease-in-out hover:scale-150 duration-200 cursor-pointer' />
                                     <text className='text-center text-sm font-mono'>{label}</text>
                                 </div>
                             );
@@ -38,12 +38,12 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className='flex flex-col flex-1 items-center mx-8'>
-                    <div className='pb-4'><text className='shadow-lg shadow-gray-600 font-semibold bg-black text-white p-1'>Framework & Library</text></div>
-                    <div className="flex flex-1 flex-col pb-5 min-h-0 w-full bg-gray-300/50">
+                    <div className='mb-6'><text className='border-b-2 border-white font-semibold bg-black text-lg text-white pb-2'>Framework & Library</text></div>
+                    <div className="flex flex-1 flex-wrap px-5 py-8 w-full rounded-lg items-center bg-gray-200/90">
                         {fl.map(({ label, Icon }) => {
                             return (
-                                <div key={fl.label} className="flex min-w-0 flex-col items-center transition ease-in-out hover:bg-gray-400 hover:scale-125 duration-200 cursor-pointer">
-                                    <Icon size={iconSize} />
+                                <div key={fl.label} className="flex p-4 box-border w-1/2 flex-col items-center">
+                                    <Icon size={iconSize} className='transition ease-in-out hover:scale-150 duration-200 cursor-pointer' />
                                     <text className='text-center text-sm font-mono'>{label}</text>
                                 </div>
                             );
@@ -52,12 +52,12 @@ const Skills = () => {
                 </div>
 
                 <div className='flex flex-col flex-1 items-center mx-8'>
-                    <div className='pb-4'><text className='shadow-lg shadow-gray-600 font-semibold bg-black text-white p-1'>Tool & Database</text></div>
-                    <div className="flex flex-1 flex-col pb-5 w-full bg-gray-300/50">
+                    <div className='mb-6'><text className='border-b-2 border-white font-semibold bg-black text-lg text-white pb-2'>Tool & Database</text></div>
+                    <div className="flex flex-1 flex-wrap px-5 py-8 w-full rounded-lg items-center bg-gray-200/90">
                         {tb.map(({ label, Icon }) => {
                             return (
-                                <div key={tb.label} className="flex min-w-0  flex-col items-center transition ease-in-out hover:bg-gray-400 hover:scale-125 duration-200 cursor-pointer">
-                                    <Icon size={iconSize} />
+                                <div key={tb.label} className="flex p-4 box-border w-1/2 flex-col items-center">
+                                    <Icon size={iconSize} className='transition ease-in-out hover:scale-150 duration-200 cursor-pointer' />
                                     <text className='text-center text-sm font-mono'>{label}</text>
                                 </div>
                             );
@@ -67,8 +67,8 @@ const Skills = () => {
             </div>
 
 
-            <div className='language flex'>
-                        
+            <div className='language flex justify-center rounded-md bg-gray-200/90 mt-4'>
+                    <text className='px-[30px] py-[20px] font-semibold text-xl'>I speak <b>English & Chinese</b> </text>
             </div>
         </section>
     );
