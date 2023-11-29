@@ -11,7 +11,7 @@ export default function Footer() {
             <ul className='flex flex-1 gap-10 justify-end pb-6'>
                 <li>
                     <a href="https://www.instagram.com/weiqiang.li.777/" target="_blank" rel='noreferrer'>
-                        <BsInstagram size={40} className={"transition ease-in-out delay-150 hover:-translate-y-2 duration-300"} />
+                        <BsInstagram size={40} className={"transition ease-in-out delay-150 hover:-translate-y-2 duration-200"} />
                     </a>
                 </li>
                 <li>

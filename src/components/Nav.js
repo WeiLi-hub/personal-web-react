@@ -5,11 +5,9 @@ const Nav = () => {
     const listenScrollEvent = () => {
         if (window.scrollY >= 500) {
             setScrolling(true);
-            console.log("scrolling");
         }
         else {
             setScrolling(false);
-            console.log("didnt scroll");
         }
     }
     useEffect(() => {

@@ -30,7 +30,7 @@ const Skills = () => {
                         className="flex flex-1"
                         initial={{
                             opacity: 0,
-                            x: -100,
+                            x: 200,
                             // if odd index card,slide from right instead of left
                         }}
                         whileInView={{
@@ -91,7 +91,7 @@ const Skills = () => {
                         className="flex flex-1"
                         initial={{
                             opacity: 0,
-                            x: 100,
+                            x: -200,
                             // if odd index card,slide from right instead of left
                         }}
                         whileInView={{
