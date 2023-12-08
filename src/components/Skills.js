@@ -42,7 +42,7 @@ const Skills = () => {
                         }}
                         viewport={{ once: false }}
                     >
-                        <div className="flex flex-1 flex-wrap px-4 py-6 w-full rounded-lg items-center bg-gray-200/90">
+                        <div className="flex flex-1 flex-wrap hover:shadow-box hover:-translate-y-3 hover:-translate-x-3 transition ease-in-out duration-500 px-4 py-6 w-full rounded-3xl items-center bg-gray-200/90">
                             {pl.map(({ label, Icon }) => {
                                 return (
                                     <div key={pl.label} className="flex p-4 box-border w-1/2 flex-col items-center">
@@ -72,7 +72,7 @@ const Skills = () => {
                         }}
                         viewport={{ once: false }}
                     >
-                        <div className="flex flex-wrap px-4 py-6 w-full rounded-lg items-center bg-gray-200/90">
+                        <div className="flex flex-wrap hover:shadow-box hover:-translate-y-3 hover:-translate-x-3 transition ease-in-out duration-500 px-4 py-6 w-full rounded-3xl items-center bg-gray-200/90">
                             {fl.map(({ label, Icon }) => {
                                 return (
                                     <div key={fl.label} className="flex p-4 box-border w-1/2 flex-col items-center">
@@ -104,7 +104,7 @@ const Skills = () => {
                         viewport={{ once: false }}
                     >
 
-                        <div className="flex flex-1 flex-wrap px-4 py-6 w-full rounded-lg items-center bg-gray-200/90">
+                        <div className="flex flex-1 flex-wrap hover:shadow-box hover:-translate-y-3 hover:-translate-x-3 transition ease-in-out duration-500 px-4 py-6 w-full rounded-3xl items-center bg-gray-200/90">
                             {tb.map(({ label, Icon }) => {
                                 return (
                                     <div key={tb.label} className="flex p-4 box-border w-1/2 flex-col items-center">
@@ -119,7 +119,7 @@ const Skills = () => {
             </div>
 
 
-            <div className='language flex justify-center rounded-md bg-gray-200/90 mt-4'>
+            <div className='language flex justify-center rounded-2xl bg-gray-200/90 mt-4  hover:shadow-box hover:-translate-y-3 hover:-translate-x-3 transition ease-in-out duration-500'>
                 <text className='px-[26px] py-[18px] font-semibold text-xl'>I speak <b>English & Chinese</b> </text>
             </div>
         </section>

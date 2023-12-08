@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectLeft from './Project_left';
 import Website from '../image/project_personalwebsite.png'
+// import example from '../image/bg_about.jpg'
 
 const Project = () => {
     return (

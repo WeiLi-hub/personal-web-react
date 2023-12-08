@@ -3,11 +3,11 @@ import { BsGithub } from 'react-icons/bs';
 
 const Project_left = (props) => {
     return (
-        <div className='flex justify-center w-[60%] my-8 text-white backdrop-blur-sm bg-gray-300/30 ml-20'>
-            <div className='flex-1 bg-gray-300/20'>
-                <img src={props.image} alt="website" className='max-w-[100%] h-auto my-8 ml-10' />
+        <div className='flex justify-center m-8 text-white w-full px-20'>
+            <div className='flex flex-1 justify-center items-center'>
+                <img src={props.image} alt="website" className='rounded-3xl w-[500px] h-[300px] max-h-[80%] max-w-full border-white border-2 object-contain' />
             </div>
-            <div className='flex-1 flex flex-col my-8 items-center px-8'>
+            <div className='flex flex-1 flex-col items-center'>
                 <h2>{props.name}</h2>
                 <p>{props.description}</p>
  
