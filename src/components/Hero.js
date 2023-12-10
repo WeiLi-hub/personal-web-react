@@ -27,7 +27,7 @@ const Hero = () => {
                     }}
                     viewport={{ once: false }}
                 >
-                    <h1 className='capitalize text-[86px] text-cyan-600 text-stroke-3'>welcome!</h1>
+                    <h1 className='capitalize text-[86px] text-cyan-600'>welcome!</h1>
                 </motion.div>
 
                 <motion.div
@@ -50,7 +50,7 @@ const Hero = () => {
                     viewport={{ once: false }}
                 >
 
-                    <h2 className="flex text-4xl text-white justify-center items-center">
+                    <h2 className="flex text-4xl text-gray-300 justify-center items-center">
                         <span className="wave text-[50px] pr-2">👋</span>
                         Hi, I'm
                         <div className='contact ml-2 px-2 py-6 rounded-lg'>

@@ -19,13 +19,13 @@ const Skills = () => {
     return (
         <section className='z-[1] relative p-[25px] my-[25px] flex flex-col items-center w-screen'>
 
-            <h1 className='header text-white text-center font-bold text-[54px]'>
+            <h1 className='header text-gray-300 text-center font-bold text-[54px]'>
                 Skills
             </h1>
 
             <div className='skill flex flex-wrap justify-evenly w-full mt-[50px] my-8'>
                 <div id="skills" className='flex flex-col flex-1 items-center mx-8'>
-                    <div className='mb-6'><text className='border-b-2 border-white font-semibold bg-black text-lg text-white pb-2'>Programming Language</text></div>
+                    <div className='mb-6'><text className='border-b-2 border-white font-semibold bg-black text-lg text-gray-200 pb-2'>Programming Language</text></div>
                     <motion.div
                         className="flex flex-1"
                         initial={{
@@ -55,7 +55,7 @@ const Skills = () => {
                     </motion.div>
                 </div>
                 <div className='flex flex-col flex-1 items-center mx-8'>
-                    <div className='mb-6'><text className='border-b-2 border-white font-semibold bg-black text-lg text-white pb-2'>Framework & Library</text></div>
+                    <div className='mb-6'><text className='border-b-2 border-white font-semibold bg-black text-lg text-gray-200 pb-2'>Framework & Library</text></div>
                     <motion.div
                         className="flex flex-1"
                         initial={{
@@ -86,7 +86,7 @@ const Skills = () => {
                 </div>
 
                 <div className='flex flex-col flex-1 items-center mx-8'>
-                    <div className='mb-6'><text className='border-b-2 border-white font-semibold bg-black text-lg text-white pb-2'>Tool & Database</text></div>
+                    <div className='mb-6'><text className='border-b-2 border-white font-semibold bg-black text-lg text-gray-200 pb-2'>Tool & Database</text></div>
                     <motion.div
                         className="flex flex-1"
                         initial={{

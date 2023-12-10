@@ -5,7 +5,7 @@ import { BsArrowUpCircle } from "react-icons/bs";
 
 export default function Footer() {
     return (
-        <section className='flex flex-col items-center relative space-y-3 justify-center p-12 bg-black font-mono text-white'>
+        <section className='flex flex-col items-center relative space-y-3 justify-center p-12 bg-black font-mono text-gray-300'>
 
             <BsArrowUpCircle size={50} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className='floating_up cursor-pointer'/>
             <ul className='flex flex-1 gap-10 justify-end pb-6'>
